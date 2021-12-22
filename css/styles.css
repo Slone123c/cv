@@ -36,3 +36,6 @@ h3{
 #name{
 color: #EEF2FF;
 }
+#name:hover{
+  color: #2C272E;
+}
