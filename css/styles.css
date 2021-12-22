@@ -1,0 +1,38 @@
+body{
+background-color: #A13333;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  height:0px;
+  border-width: 5px;
+  width: 10%
+}
+
+h3{
+  color: #EEF2FF
+}
+/******************CLASS SELECTORS******************/
+.hbClass{
+  width: 20px;
+}
+
+.hbul{
+  list-style: none;
+}
+.hbul li::before{
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  color: #461111;
+}
+.listContent{
+  color: #F0ECE3;
+}
+/*******************ID SELECTORS*******************/
+#name{
+color: #EEF2FF;
+}
